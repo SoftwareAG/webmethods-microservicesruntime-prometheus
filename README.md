@@ -2,6 +2,10 @@ Microservices Runtime Sample for monitoring with Prometheus and Grafana
 
 The Microservices Runtime Sample for monitoring with Prometheus and Grafana allows you to run Microservices runtime in Docker container and monitor it with Prometheus and Grafana. 
 
+After successful execution of the sample, you should be able to see dashboard in Grafana like below.
+
+![Grafana Dashboard](images/grafana_msr_dashboards.png)
+
 This project uses the Apache License Version 2.0. For details, see [the license file](LICENSE).
 
 Important!
