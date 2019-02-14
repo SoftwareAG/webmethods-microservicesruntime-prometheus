@@ -23,8 +23,8 @@ To install and run the sample,
 3.	Deploy the stack. <br/>
 `docker stack deploy -c docker-compose.yml wm-msr`
 
-4.	Once components are running, you can login to Grafana. Replace localhost with the hostname of your Docker host. <br/>
-http://localhost:3000
+4.	Once components are running, you can login to Grafana. Replace localhost with the name of your Docker host. <br/>
+http://localhost:3000. admin/admin is the default username/password. You will be prompted to change the password. 
 
 5. Click on http://localhost:3000/dashboards and select webMethods Microservices Runtime Dashboard from Manage Dashboard section.
 
