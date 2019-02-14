@@ -4,30 +4,32 @@ The Microservices Runtime Sample for monitoring with Prometheus and Grafana allo
 
 This project uses the Apache License Version 2.0. For details, see [the license file](LICENSE).
 
-To install the sample, 
-
-Important! 
+Important!
+--
 
 You need to agree to download webMethods Microservices Runtime Docker image from Docker store https://hub.docker.com/_/softwareag-webmethods-microservicesruntime. Use the username and password of your Docker Store account that you used to purchase the webMethods Microservices Runtime Docker image in your Docker environment. i.e. make sure you use "docker login" command with the same username and password.
 
 Ensure that you have docker stack functional in your environment - https://docs.docker.com/engine/reference/commandline/stack/.
 
-1.	Clone the webmethods-microservicesruntime-prometheus repository.<br/>
+To install and run the sample, 
+--
+
+1.	Clone the webmethods-microservicesruntime-prometheus repository.
 `git clone https://github.com/SoftwareAG/webmethods-microservicesruntime-prometheus.git`
 
-2.	Go to the root directory of the repository.<br/>
+2.	Go to the root directory of the repository.
 `cd webmethods-microservicesruntime-prometheus`
 
-3.	Deploy the stack.<br/>
-docker stack deploy -c docker-compose.yml wm-msr
+3.	Deploy the stack.
+`docker stack deploy -c docker-compose.yml wm-msr`
 
-4.	Once components are running, you can login to Grafana. Replace localhost with the hostname of your Docker<br/>
+4.	Once components are running, you can login to Grafana. Replace localhost with the hostname of your Docker host.
 http://localhost:3000
 
-5. Click on http://localhost:3000/dashboards and select webMethods Microservices Runtime Dashboard.<br/>
+5. Click on http://localhost:3000/dashboards and select webMethods Microservices Runtime Dashboard from Manage Dashboard section.
 
 6. To undeploy the stack.<br/>
-docker stack rm wm-msr
+`docker stack rm wm-msr`
 
 For more information about Microservices Runtime, see the official Software AG Microservices Runtime documentation.
 
