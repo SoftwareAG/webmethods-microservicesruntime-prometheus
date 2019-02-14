@@ -14,16 +14,16 @@ Ensure that you have docker stack functional in your environment - https://docs.
 To install and run the sample, 
 --
 
-1.	Clone the webmethods-microservicesruntime-prometheus repository.
+1.	Clone the webmethods-microservicesruntime-prometheus repository. <br/>
 `git clone https://github.com/SoftwareAG/webmethods-microservicesruntime-prometheus.git`
 
-2.	Go to the root directory of the repository.
+2.	Go to the root directory of the repository. <br/>
 `cd webmethods-microservicesruntime-prometheus`
 
-3.	Deploy the stack.
+3.	Deploy the stack. <br/>
 `docker stack deploy -c docker-compose.yml wm-msr`
 
-4.	Once components are running, you can login to Grafana. Replace localhost with the hostname of your Docker host.
+4.	Once components are running, you can login to Grafana. Replace localhost with the hostname of your Docker host. <br/>
 http://localhost:3000
 
 5. Click on http://localhost:3000/dashboards and select webMethods Microservices Runtime Dashboard from Manage Dashboard section.
