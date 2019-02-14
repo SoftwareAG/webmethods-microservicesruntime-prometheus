@@ -12,7 +12,7 @@ Follow steps below for the Installation and Configuration of Prometheus Server
 
 3.	Once downloaded, extract the content on your local machine – e.g. C:\applications\prometheus-2.5.0
 
-4.	Copy [prometheus.yml](prometheus/prometheus.yml) file from prometheus directory into C:\applications\prometheus-2.5.0 directory. Make sure you edit this file to point to your running instance of webMethods Microservices Runtime. By default, template points to localhost:5555
+4.	Copy [prometheus.yml](../prometheus/prometheus.yml) file from prometheus directory into C:\applications\prometheus-2.5.0 directory. Make sure you edit this file to point to your running instance of webMethods Microservices Runtime. By default, template points to localhost:5555
 
 5.	Start Prometheus Server by executing  C:\applications\prometheus-2.5.0\prometheus.exe
 
@@ -32,7 +32,7 @@ Follow steps below for the Installation and Configuration of Grafana
 
 6.	Create Datasource of type Prometheus from http://localhost:3000/datasources. Provide URL for Prometheus as used in step #6 above i.e. http://localhost:9090
 
-7.	Import the template from http://localhost:3000/dashboard/import, selecting Prometheus Datasource that you created in step above. Default template for Microservices runtime is located at [here](grafana/dashboards/webMethods Microservices Runtime.json)
+7.	Import the template from http://localhost:3000/dashboard/import, selecting Prometheus Datasource that you created in step above. Default template for Microservices runtime is located [here](../grafana/dashboards).
 
 8.	Once imported, you can view metrics of webMethods Microservices Runtime in Grafana. You can edit the Dashboard as per your requirements.
 
