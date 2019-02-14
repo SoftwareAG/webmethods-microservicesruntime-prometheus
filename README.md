@@ -18,6 +18,8 @@ Ensure that you have docker stack functional in your environment - https://docs.
 To install and run the sample, 
 --
 
+This instruction is if you are running different components in Docker container. If you are not using Docker infrasturcture, refer to [standalone instructions](standalone).
+
 1.	Clone the webmethods-microservicesruntime-prometheus repository. <br/>
 `git clone https://github.com/SoftwareAG/webmethods-microservicesruntime-prometheus.git`
 
