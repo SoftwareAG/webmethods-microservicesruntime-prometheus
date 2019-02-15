@@ -4,6 +4,9 @@ Once webMethods Microservices Runtime or Integration Server with Microservices i
 
 This metrics can be redirected to Promethus and Grafana to create dashboard for the metrics supplied by webMethods Microservices Runtime.
 
+Prometheus Installation and Configuration
+--
+
 Follow steps below for the Installation and Configuration of Prometheus Server
 
 1.	Install Prometheus Server from https://prometheus.io/download/
@@ -17,6 +20,9 @@ Follow steps below for the Installation and Configuration of Prometheus Server
 5.	Start Prometheus Server by executing  C:\applications\prometheus-2.5.0\prometheus.exe
 
 6.	In Web Browser, Login to Prometheus Server at http://localhost:9090 and make sure that you are able to view various metrics that starts with “sag_is”
+
+Grafana Installation and Configuration
+--
 
 Follow steps below for the Installation and Configuration of Grafana
 
